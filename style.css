@@ -1,0 +1,76 @@
+body{
+  padding: 1em;
+  margin: 1em;
+  background-color: rgb(204, 202, 246);
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  column-gap: 12px;
+}
+.botones .izquierda{
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 12px;
+}
+
+.bd button{
+  width: 250px;
+  height: 70px; 
+  border: solid rgb(233, 233, 240);
+  font-size: large;
+  margin-bottom: 2em;
+  background-color: rgb(27, 4, 64);
+  border-radius: 20%;
+  color: beige;
+  font-size: larger;
+  box-shadow: 6px 6px 6px black;
+  
+}
+.boton1{
+  margin: 1em;
+}
+.izquierda{
+  background-color: rgb(238, 240, 245);
+  border: solid black;
+  border-radius: 20%;
+  padding: 1em;
+}
+.derecha{
+  margin-left: 10em;
+  padding: 1em;
+  margin-top: 1em;
+}
+.centro{
+  margin-left: 5em;
+}
+.centro h2{
+  margin-right: 5em;
+}
+.bd button:hover{
+  background-color: rgb(42, 54, 165);
+}
+h1{
+  text-align: center;
+  background-color: rgb(8, 27, 102);
+  color: rgb(247, 247, 246);
+}
+.derecha{
+  align-items: center;
+}
+.centro{
+  text-align: center;
+}
+.izquierda img,h2,p,.boton1{
+  margin-left: 5em;
+}
+.botones .centro .img{
+padding-right: 5em;
+}
+.imgqr img{
+  padding: 5px;
+}
+.boton1 button:hover{
+  background-color: rgb(5, 5, 129);
+  color: rgb(216, 226, 239);
+}

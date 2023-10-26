@@ -21,7 +21,7 @@ body{
   font-size: large;
   margin-bottom: 2em;
   background-color: rgb(27, 4, 64);
-  border-radius: 20%;
+  border-radius: 20px 20px;
   color: beige;
   font-size: larger;
   box-shadow: 6px 6px 6px black;
@@ -33,7 +33,7 @@ body{
 .izquierda{
   background-color: rgb(238, 240, 245);
   border: solid black;
-  border-radius: 20%;
+  border-radius: 20px 20px;
   padding: 1em;
 }
 .derecha{
@@ -62,8 +62,11 @@ h1{
 .centro{
   text-align: center;
 }
-.izquierda img,h2,p,.boton1{
+.izquierda img,p,.boton1{
   margin-left: 5em;
+}
+.izquierda h2{
+  margin-left: 4em;
 }
 .botones .centro .img{
 padding-right: 5em;
